@@ -3,10 +3,15 @@
 Active Directory (AD) is Microsoft Windows domain network directory and identity management service and is included with most MS Windows Server operating systems and other third party applications.
 
 AD is made up of several different directory services:
+
 Active Directory Domain Services (AD DS) – the core Active Directory service used to manage users and resources.
+
 Active Directory Lightweight Directory Services (AD LDS) – a low-overhead version of AD DS for directory-enabled applications.
+
 Active Directory Certificate Services (AD CS) – for issuing and managing digital security certificates.
+
 Active Directory Federation Services (AD FS) – for sharing identity and access management information across organizations and enterprises.
+
 Active Directory Rights Management Services (AD RMS) – for information rights management (controlling access permissions to documents, workbooks, presentations, etc.)
 
 AD features and capabilities include:
