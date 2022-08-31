@@ -29,7 +29,11 @@ AD stores information about network users (names, phone numbers, passwords, etc.
 Objects within a domain can be grouped into organizational units (OUs) to simplify administration and policy management. OUs also make it easier to delegate control over resources to various administrators.
 
 AD also provides a variety of benefits:
+
 Security – Active Directory helps businesses improve security by controlling access to network resources.
+
 Extensibility – companies can easily organize Active Directory data to align with their organizational structure and business needs.
+
 Simplicity – administrators can centrally manage user identities and access privileges across the enterprise, helping businesses simplify management and reduce operations expenses.
+
 Resiliency – Active Directory supports redundant components and data replication to enable high availability and business continuity.
