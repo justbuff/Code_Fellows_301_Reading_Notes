@@ -22,9 +22,9 @@ AD makes use of other security and networking protocols including LDAP (Lightwei
 Active Directory Domain Services (AD DS) is the primary Active Directory service. It is used to authenticate users and to control access to network resources. A server running AD DS is called a domain controller. Most Windows domain networks have two or more domain controllers; a primary domain controller and one or more backup domain controllers for resiliency. During login, users authenticate to a domain controller and are granted access to particular resources based on administratively defined policies.
 
 AD stores information about network users (names, phone numbers, passwords, etc.) and resources (servers, storage volumes, printers, etc.) in a hierarchical structure consisting of domains, trees, and forests:
-- A domain is a collection of objects (e.g. users, devices) that share the same Active Directory database. A domain is identified by a DNS name like company.com.
+- A domain is a collection of objects (e.g. users, devices) that share the same AD database. A domain is identified by a DNS name like company.com.
 - A tree is a collection of one or more domains with a contiguous namespace (they have a common DNS root name like marketing.company.com, engineering.company.com, and sales.company.com).
-- A forest is a collection of one or more trees that share a common schema, global catalog, and directory configuration—but aren’t part of a contiguous namespace. The forest typically serves as the security boundary for an enterprise network.
+- A forest is a collection of one or more trees that share a common schema, global catalog, and directory configuration but aren’t part of a contiguous namespace. The forest typically serves as the security boundary for an enterprise network.
 
 Objects within a domain can be grouped into organizational units (OUs) to simplify administration and policy management. OUs also make it easier to delegate control over resources to various administrators.
 
