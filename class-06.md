@@ -18,7 +18,7 @@ Layer 2 uses MAC (or physical) addressing which is able to move data across a sm
 
 Another layer 2 function is to establish protocols that relate to the structure of data frames that are placed on the network for data transmission. 
 
-## Layer 3
+## OSI Layer 3
 
 Layer 3 addresses are divided in a way that identifies a specific network address and a specific host or group of hosts. When it is determined that the recipient’s network address is different from the sender’s network address, packets are directed to the network’s router for delivery handling. The TCP/IP suite of protocols are used for communication that crosses networks. 
 
