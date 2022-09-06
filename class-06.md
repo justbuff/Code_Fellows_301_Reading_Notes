@@ -33,7 +33,7 @@ Packet Capture: Wireshark listens to a network connection in real time and then 
 
 Filtering: Wireshark is capable of sorting all of this random live data using filters.
 
-Visualization: Wireshark allows you to dive right into the very middle of a network packet. It also allows you to visualize entire conversations and network streams.
+Visualization: Wireshark allows you analyze the middle of a network packet and visualize entire conversations and network streams.
 
 Wireshark has many uses, including troubleshooting networks that have performance issues. Cybersecurity professionals often use Wireshark to trace connections, view the contents of suspect network transactions and identify bursts of network traffic.
 
