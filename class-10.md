@@ -10,14 +10,7 @@ A site-to-site virtual private network (VPN) refers to a connection set up betwe
 
 - Extranet-based Site-to-Site: each entity connects to the VPN and chooses what they want to make available to the other companies.
 
-- Internet-based site-to-site: uses the existing network of an organization in combination with the public internet.
-
-To create an internet-based site-to-site VPN, you make a tunnel that connects two networks, for which you need three components:
-
-    A base network in one location
-    A satellite network in another location
-    A tunnel with security gateways on each end
-
+- Internet-based site-to-site: uses the existing network of an organization in combination with the public internet. To create an internet-based site-to-site VPN, you make a tunnel that connects two networks, for which you need three components: A base network in one location, a satellite network in another location, and a tunnel with security gateways on each end.
 
 - MPLS Site-to-Site: depends on infrastructure made available by the VPN provider, as opposed to the company that uses the VPN. MPLS works through labels that route data packets to where they need to go instead of using IP addresses. Nodes are designed to interpret the labels and send the data packets directly to the next destination.
 
