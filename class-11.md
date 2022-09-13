@@ -2,9 +2,7 @@
 
 Network Address Translation (NAT) is a process in which one or more local IP address is translated into one or more Global IP address and vice versa in order to provide Internet access to the local hosts. It also translates port numbers by masking the port number of the host with another port number in the packet that will be routed to the destination. It then makes the corresponding entries of IP address and port number in the NAT table. NAT generally operates on a router or firewall. 
 
-Generally, the border router is configured for NAT i.e the router which has one interface in the local (inside) network and one interface in the global (outside) network. When a packet traverse outside the local (inside) network, then NAT converts that local (private) IP address to a global (public) IP address. When a packet enters the local network, the global (public) IP address is converted to a local (private) IP address. 
-
-If NAT runs out of addresses, i.e., no address is left in the pool configured then the packets will be dropped and an Internet Control Message Protocol (ICMP) host unreachable packet to the destination is sent. 
+The router which has one interface in the local (inside) network and one interface in the global (outside) network is configured for NAT network. When a packet traverses outside the local (inside) network, then NAT converts that local (private) IP address to a global (public) IP address. When a packet enters the local network, the global (public) IP address is converted to a local (private) IP address. If NAT runs out of addresses then the packets will be dropped and an Internet Control Message Protocol (ICMP) host unreachable packet is sent to the destination.
 
 3 ways to configure NAT: 
 
@@ -22,7 +20,7 @@ Port Address Translation (PAT) – many local (private) IP addresses can be tran
  
 - Eliminates address renumbering when a network evolves. 
  
-## Disadvantage of NAT
+## Disadvantages of NAT
  
 - Translation results in switching path delays. 
  
