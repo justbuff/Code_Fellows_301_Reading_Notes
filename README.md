@@ -12,3 +12,4 @@
 - [Class 10 Reading Notes](class-10.md)
 - [Class 11 Reading Notes](class-11.md)
 - [Class 12 Reading Notes](class-12.md)
+- [Class 13 Reading Notes](class-13.md)
