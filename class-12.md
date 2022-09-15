@@ -14,6 +14,6 @@ AAA is a standard-based framework used to control who is permitted to use networ
    
 ## AAA implementation 
 
-- Local database: If we want to use the local running configuration of the router or switch to implement AAA, we should create users first for authentication and provide privilege levels to users for Authorization. 
+- Local database: created users for Authentication and provided privilege levels for Authorization. 
 
-- ACS server: An external ACS server is used (can be ACS device or software installed on Vmware) for AAA on which configuration on both router and ACS is required. The configuration includes creating a user, separate customized method list for authentication, Authorization, and Accounting. The client or Network Access Server (NAS) sends authentication requests to the ACS server and the server takes the decision to allow the user to access the network resource or not according to the credentials provided by the user. 
+- ACS server: The configuration includes creating a user, separate customized method list for AAA. The client or Network Access Server (NAS) sends authentication requests to the ACS server and the server takes the decision to allow the user to access the network resource or not according to the credentials provided by the user. 
