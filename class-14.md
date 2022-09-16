@@ -64,6 +64,6 @@ Port scanning techniques:
 
 - LDAP (Lightweight Directory Access Protocol): TCP over port 389. LDAPS (Secure): TCP port 636.
 
-Microsoft SQL server (Microsoft Structured Query Language): TCP port 1433.
+- Microsoft SQL server (Microsoft Structured Query Language): TCP port 1433.
 
-Oracle’s SQLnet (Oracle Net or Oracle Net8): TCP port 1521. Open source database of MySQL: TCP port 3306.
+- Oracle’s SQLnet (Oracle Net or Oracle Net8): TCP port 1521. Open source database of MySQL: TCP port 3306.
